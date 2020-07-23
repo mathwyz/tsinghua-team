@@ -1,0 +1,146 @@
+\documentclass{beamer}
+
+\usepackage{ctex}
+\usepackage{wyz}
+\mode<presentation>
+\usepackage{ctex}
+\usepackage{calligra}
+\usepackage[T1]{fontenc}
+
+
+\usepackage{multimedia}
+%% \usepackage{ctex}
+
+% \title{ \title{There Is No Largest Prime Number}}
+% \date[ISPN ’80]{27th International Symposium of Prime Numbers}
+% \author[Euclid]{Euclid of Alexandria \\ \texttt{euclid@alexandria.edu}}
+
+\usetheme{Darmstadt}
+\title{一类自适应的数据提升方法}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+% \begin{abstract}
+%   ？？？？？？？？？？？？？？？？？？？
+% \end{abstract}
+
+\section{引言}
+
+\section{图像数据的评估和提升}
+
+\subsection{焦盐噪声}
+\begin{frame}
+  \frametitle{焦盐噪声}
+  \begin{itemize}
+  \item 评估算法
+  \item 提升算法
+  \end{itemize}
+% \subsubsection{评估算法}
+% \label{sec:0101}
+
+% \subsubsection{提升算法}
+% \label{sec:0102}
+  
+\end{frame}
+
+
+
+
+\subsection{曝光异常}
+\begin{frame}
+  \frametitle{曝光异常}
+  \begin{itemize}
+  \item 评估算法
+  \item 提升算法
+  \end{itemize}
+% \subsubsection{评估算法}
+% \label{sec:0101}
+
+% \subsubsection{提升算法}
+% \label{sec:0102}
+
+\end{frame}
+
+\subsection{运动模糊}
+\begin{frame}
+  \frametitle{运动模糊}
+  \begin{itemize}
+  \item 评估算法
+  \item 提升算法
+  \end{itemize}
+% \subsubsection{评估算法}
+% \label{sec:0101}
+
+% \subsubsection{提升算法}
+% \label{sec:0102}  
+\end{frame}
+
+\section{点云数据的评估和提升}
+\begin{frame}
+  \frametitle{点云数据}
+  \begin{itemize}
+\item 点云稀疏
+\item 噪声
+  \end{itemize}
+% \subsection{点云稀疏}
+% \subsection{噪声}  
+\end{frame}
+
+\section{融合评估与联合校准}
+\begin{frame}
+  \frametitle{融合评估与联合校准}
+\subsection{评估算法}
+可能用到的数学方法
+\begin{itemize}
+\item 卡尔曼滤波
+\item 匈牙利算法
+\item 
+\end{itemize}
+\subsection{校准算法}  
+\end{frame}
+
+
+\section{理论推导}
+\begin{frame}
+  \frametitle{理论推导}
+  \begin{equation}
+    \label{eq:01}
+    y_1=f(Image,Points)
+  \end{equation}
+  \begin{equation}
+    \label{eq:02}
+    y_2=f(g(Image,Points))
+  \end{equation}
+  \begin{equation}
+    \label{eq:03}
+  ||y-f(g(I,P))|| \leq ||y-f(I,P)||    
+  \end{equation}
+
+\end{frame}
+\section{仿真实验与分析}
+\subsection{KITTI数据集}
+\begin{frame}
+  \frametitle{测试}
+\begin{itemize}
+\item 计算时间
+\item 鲁棒性(准确性)
+\end{itemize}  
+\end{frame}
+
+% \subsection{测试结果}
+% \subsubsection{准确性}
+% \label{sec:0601}
+
+% \subsubsection{鲁棒性}
+% \subsubsection{时间}
+% \section{结论}
+% \begin{frame}
+%   \frametitle{结论}
+  
+% \end{frame}
+
+
+\end{document}
